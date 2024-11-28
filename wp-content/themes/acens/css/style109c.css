@@ -3096,7 +3096,7 @@
   }
   .gallery-box .gallery-detail h4 {
       font-size: 24px;
-      color: #fff;
+      color: #000;
       margin-bottom: 0;
   }
   .gallery-box .gallery-detail p {
@@ -3176,7 +3176,7 @@
   }
   .video-gallery .item .text h4 {
       font-size: 24px;
-      color: #fff;
+      color: #000;
       margin-bottom: 0;
   }
   .video-gallery .item .text p {
@@ -3376,7 +3376,7 @@
       display: inline-block;
       font-family: "Montserrat", "Open Sans", sans-serif;
       font-size: 20px;
-      color: var(--clr-theme-color);
+      color: #fff;
       margin-bottom: 10px;
       font-weight: 400;
   }

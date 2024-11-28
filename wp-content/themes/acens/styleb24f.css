@@ -334,7 +334,7 @@ body.dark .contact form .contact__form textarea::placeholder {
     font-weight: normal;
     display: block;
 }
-.subscribe form .wpcf7-response-output {
+.subscribe form . {
     border-color: #fff;
     margin: 0em 0em 1em;
     color: #fff;
