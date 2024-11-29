@@ -1044,7 +1044,7 @@ body.dark .nav-scroll .navbar-right .wrap .text h5 a {
         min-width: 240px;
         padding: 20px;
         border: 0;
-        background-color: #202020;
+        background-color: #fff;
         -webkit-transition: all .3s;
         transition: all .3s;
         border-radius: 10px;
@@ -1120,7 +1120,7 @@ body.dark .nav-scroll .navbar-right .wrap .text h5 a {
         margin: 0px auto !important;
     }
     body.dark .navbar .navbar-nav .nav-link {
-        color: #fff;
+        color: #000;
     }
     body.dark .nav-scroll .navbar-collapse .nav-link {
         color: #000 !important;
@@ -1180,7 +1180,7 @@ body.dark .nav-scroll .navbar-right .wrap .text h5 a {
         color: rgba(255, 255, 255, 0.5);
     }
     body.dark .nav-scroll .dropdown .nav-link i {
-        color: rgba(255, 255, 255, 0.5);
+        color: #000;
     }
     body.dark .nav-scroll .dropdown .nav-link.active i {
         color: var(--clr-theme-color);

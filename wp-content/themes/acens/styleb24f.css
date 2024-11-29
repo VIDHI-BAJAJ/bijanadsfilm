@@ -201,7 +201,7 @@ body.dark .navbar .dropdown-menu .nav-link {
     border: 0;
     padding: 7px 0;
     font-size: 16px;
-    color: #fff;
+    color: #000;
     position: relative;
     background-color: transparent;
     -o-transition: all .4s;
