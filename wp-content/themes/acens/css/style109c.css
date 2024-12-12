@@ -95,19 +95,20 @@
   h5,
   h6 {
       color: #1b1b1b;
-      font-family: 'Poppins', sans-serif;
+      font-family: "Montserrat", "Open Sans", sans-serif;
       font-weight: 900;
       line-height: 1.25em;
       margin-bottom: 15px;
   }
   /* paragraph */
   p {
-      font-family: 'Hind', sans-serif;
+      font-family: "Montserrat", "Open Sans", sans-serif;
       font-size: 16px;
       line-height: 1.75em;
       margin: 0 0 15px;
       color: #727272;
       font-weight: 400;
+      text-align: justify;
   }
   /* lists */
   ul {
@@ -143,7 +144,7 @@
   optgroup,
   select,
   textarea {
-      font-family: 'Hind', sans-serif;
+    font-family: "Montserrat", "Open Sans", sans-serif;
   }
   input[type="password"]:focus,
   input[type="email"]:focus,
@@ -186,7 +187,7 @@
   input[type="reset"],
   input[type="button"],
   button {
-       font-family: 'Poppins', sans-serif;
+      font-family: "Montserrat", "Open Sans", sans-serif;
       font-weight: 900;
       text-shadow: none;
       -webkit-box-shadow: none;
@@ -415,7 +416,7 @@
   }
   .ullist ul li:before {
       content: "\f00c";
-      font-family: "Font Awesome 6 Pro";
+      font-family: "Montserrat", "Open Sans", sans-serif;
       position: absolute;
       left: 0;
       top: 2px;
@@ -453,7 +454,7 @@
       color: #727272;
   }
   .list-text p b {
-      font-family: 'Poppins', sans-serif;
+      font-family: "Montserrat", "Open Sans", sans-serif;
       font-weight: 900;
       color: #1b1b1b;
   }
@@ -516,7 +517,7 @@
       z-index:3;
   }
   blockquote:before {
-      font-family: "Font Awesome 6 Pro";
+      font-family: "Montserrat", "Open Sans", sans-serif;
       font-weight: 900;
       position: absolute;
       content: "\22";
@@ -540,7 +541,7 @@
       border-color:inherit;
       line-height:1;
       margin-top: 22px;
-      font-family: 'Poppins', sans-serif;
+      font-family: "Montserrat", "Open Sans", sans-serif;
       font-style: normal;
       color: #fff;
       font-weight: 900;
@@ -769,7 +770,7 @@
       height: 1em;
   }
   .navbar .navbar-nav .nav-link {
-      font-family: 'Poppins', sans-serif;
+      font-family: "Montserrat", "Open Sans", sans-serif;
       font-size: 16px;
       font-weight: 900;
       color: #fff;
@@ -2037,7 +2038,7 @@
       line-height: 1.5em;
       font-weight: 900;
       margin-bottom: 15px;
-      color: #fff;
+      color: #000;
   }
   .section-padding[data-overlay-dark] h6,
   .section-padding h6 {
@@ -4749,6 +4750,137 @@
   }
   
   
+  .contactform {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+
+.contact-info {
+    padding: 20px;
+}
+
+.contact-info h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.contact-details {
+    list-style: none;
+}
+
+.contact-details li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-details .icon {
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.contact-details .icon img {
+    width: 20px;
+    height: 20px;
+    filter: invert(1);
+}
+
+.contact-details span {
+    color: #333;
+}
+
+.opening-hours {
+    margin-top: 40px;
+}
+
+.opening-hours h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.hours-list {
+    list-style: none;
+}
+
+.hours-list li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.contact-form {
+    padding: 20px;
+}
+
+.contact-form h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.submit-btn {
+    background-color: #000;
+    color: #fff;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #333;
+}
+
+@media (max-width: 768px) {
+    .contactform{
+        grid-template-columns: 1fr;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+ }
+}
   /* ======= toTop Button style ======= */
   .progress-wrap {
       position: fixed;
@@ -4960,4 +5092,9 @@
   }
   [data-overlay-dark="10"]:before {
       opacity: 1;
+  }
+
+
+  .info h5{
+    color: #000;
   }
