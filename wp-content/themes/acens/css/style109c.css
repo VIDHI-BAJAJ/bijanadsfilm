@@ -2011,7 +2011,7 @@
   
   /* ======= Section style ======= */
   .section-padding {
-      padding: 130px 0;
+      padding: 50px 0;
   }
   .section-padding h1 {
       font-size: 48px;
@@ -4881,6 +4881,113 @@ textarea {
         grid-template-columns: 1fr;
  }
 }
+
+.whyus{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.split-layout {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 4rem;
+    align-items: center;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.left-side {
+    padding: 4rem 4rem 1rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-side h1 {
+    font-size: 50px;
+    color: black;
+    font-weight: 200;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.left-side h1::after {
+    content: '';
+    position: absolute;
+    bottom: -1rem;
+    left: 0;
+    width: 80px;
+    height: 4px;
+    background: #ffffff;
+    border-radius: 2px;
+}
+
+.right-side {
+    padding: 4rem 4rem 1rem 0;
+}
+
+.right-side p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 1.5rem;
+}
+
+.highlight {
+    color: #2b4cb2;
+    font-weight: 600;
+}
+
+@media (max-width: 1024px) {
+    .whyus{
+        padding: 2rem;
+    }
+
+    .split-layout {
+        gap: 2rem;
+    }
+
+    .left-side, .right-side {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .split-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .left-side {
+        padding: 3rem 2rem;
+    }
+
+    .left-side h1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .left-side h1::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .right-side {
+        padding: 2rem;
+    }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.split-layout {
+    animation: fadeIn 0.8s ease-out;
+}
+
   /* ======= toTop Button style ======= */
   .progress-wrap {
       position: fixed;
