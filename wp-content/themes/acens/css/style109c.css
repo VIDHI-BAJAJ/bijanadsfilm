@@ -4910,18 +4910,19 @@ textarea {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: 10px;
 }
 
-.left-side h1 {
-    font-size: 50px;
+.left-side h2 {
+    font-size: 40px;
     color: black;
-    font-weight: 200;
-    line-height: 1.2;
+    line-height: 1;
     margin-bottom: 2rem;
     position: relative;
+    margin-left: 50px;
 }
 
-.left-side h1::after {
+.left-side h2::after {
     content: '';
     position: absolute;
     bottom: -1rem;
@@ -4971,7 +4972,7 @@ textarea {
         padding: 3rem 2rem;
     }
 
-    .left-side h1 {
+    .left-side h2{
         font-size: 2.5rem;
         text-align: center;
     }
@@ -4984,6 +4985,26 @@ textarea {
     .right-side {
         padding: 2rem;
     }
+}
+
+.left-side h3 {
+    font-size: 30px;
+    color: black;
+    line-height: 1;
+    margin-bottom: 2rem;
+    position: relative;
+    margin-left: 20px;
+}
+
+.left-side h3::after {
+    content: '';
+    position: absolute;
+    bottom: -1rem;
+    left: 0;
+    width: 80px;
+    height: 4px;
+    background: #ffffff;
+    border-radius: 2px;
 }
 
 @keyframes fadeIn {
