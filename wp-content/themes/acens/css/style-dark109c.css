@@ -801,7 +801,7 @@ body.dark .navbar-toggler-icon {
 }
 body.dark .navbar .navbar-toggler-icon,
 body.dark .navbar .icon-bar {
-    color: #000;
+    color: #fff;
     font-size: 24px;
     width: 1.5em;
     height: 1em;
@@ -1141,6 +1141,7 @@ body.dark .nav-scroll .navbar-right .wrap .text h5 a {
         right: 15px;
         font-size: 13px;
     }
+    
     body.dark .navbar .dropdown-submenu:hover > .dropdown-toggle::after {
         transform: rotate(0deg);
     }
