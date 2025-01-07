@@ -4910,7 +4910,6 @@ textarea {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 10px;
 }
 
 .left-side h2 {
@@ -4968,13 +4967,11 @@ textarea {
         grid-template-columns: 1fr;
     }
 
-    .left-side {
-        padding: 3rem 2rem;
-    }
 
     .left-side h2{
         font-size: 2.5rem;
         text-align: center;
+        margin-left: -4px;
     }
 
     .left-side h1::after {
@@ -4984,6 +4981,7 @@ textarea {
 
     .right-side {
         padding: 2rem;
+        margin-top: -93px;
     }
 }
 
