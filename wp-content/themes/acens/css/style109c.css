@@ -4523,9 +4523,10 @@
       background-color: #101010;
   }
   .footer .top img {
-      width: 150px;
-      margin-bottom: 15px;
-  }
+    width: 150px;
+    margin-bottom: 15px;
+    margin-left: -12px;
+}
   .footer .top h4 {
       font-family: "Montserrat", "Open Sans", sans-serif;
       font-size: 40px;
