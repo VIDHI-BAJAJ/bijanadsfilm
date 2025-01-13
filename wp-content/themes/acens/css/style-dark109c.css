@@ -96,14 +96,14 @@ body.dark h4,
 body.dark h5,
 body.dark h6 {
     color: #1b1b1b;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Montserrat", "Open Sans", sans-serif;
     font-weight: 900;
     line-height: 1.25em;
     margin-bottom: 15px;
 }
 /* paragraph */
 body.dark p {
-    font-family: 'Hind', sans-serif;
+    font-family: "Montserrat", "Open Sans", sans-serif;
     font-size: 16px;
     line-height: 1.75em;
     margin: 0 0 15px;
@@ -144,7 +144,7 @@ input,
 optgroup,
 select,
 textarea {
-    font-family: 'Hind', sans-serif;
+    font-family: "Montserrat", "Open Sans", sans-serif;
 }
 input[type="password"]:focus,
 input[type="email"]:focus,
@@ -170,7 +170,7 @@ body.dark textarea {
     display: block;
     width: 100%;
     line-height: 1.5em;
-    font-family: 'Hind', sans-serif;
+    font-family: "Montserrat", "Open Sans", sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: #fff;
@@ -187,7 +187,7 @@ body.dark textarea:focus {
  input[type="reset"],
  input[type="button"],
  button {
-     font-family: 'Poppins', sans-serif;
+    font-family: "Montserrat", "Open Sans", sans-serif;
     font-weight: 900;
     text-shadow: none;
     -webkit-box-shadow: none;
@@ -416,7 +416,7 @@ body.dark .ullist ul li {
 }
 body.dark .ullist ul li:before {
     content: "\f00c";
-    font-family: "Font Awesome 6 Pro";
+    font-family: "Montserrat", "Open Sans", sans-serif;
     position: absolute;
     left: 0;
     top: 2px;
@@ -454,7 +454,7 @@ body.dark .list-text p {
     color: #ccc;
 }
 body.dark .list-text p b {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Montserrat", "Open Sans", sans-serif;
     font-weight: 900;
     color: #fff;
 }
@@ -508,7 +508,7 @@ body.dark blockquote {
     border-radius: 10px;
 }
 body.dark blockquote p {
-    font-family: inherit;
+    font-family: "Montserrat", "Open Sans", sans-serif;
     margin-bottom: 0 !important;
     color: inherit;
     max-width: 650px;
@@ -517,7 +517,7 @@ body.dark blockquote p {
     z-index:3;
 }
 body.dark blockquote:before {
-    font-family: "Font Awesome 6 Pro";
+    font-family: "Montserrat", "Open Sans", sans-serif;
     font-weight: 900;
     position: absolute;
     content: "\22";
@@ -541,7 +541,7 @@ body.dark blockquote cite {
     border-color:inherit;
     line-height:1;
     margin-top: 22px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Montserrat", "Open Sans", sans-serif;
     font-style: normal;
     color: #fff;
     font-weight: 900;
@@ -807,7 +807,7 @@ body.dark .navbar .icon-bar {
     height: 1em;
 }
 body.dark .navbar .navbar-nav .nav-link {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Montserrat", "Open Sans", sans-serif;
     font-size: 16px;
     font-weight: 900;
     color: #fff;
@@ -1179,9 +1179,11 @@ body.dark .nav-scroll .navbar-right .wrap .text h5 a {
     
     body.dark .dropdown .nav-link i {
         color: rgba(255, 255, 255, 0.5);
+        display: none;
     }
     body.dark .nav-scroll .dropdown .nav-link i {
         color: #000;
+        display: none;
     }
     body.dark .nav-scroll .dropdown .nav-link.active i {
         color: var(--clr-theme-color);
