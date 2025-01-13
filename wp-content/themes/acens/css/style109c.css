@@ -5044,6 +5044,93 @@ textarea {
     background: #ffffff;
     border-radius: 2px;
 }
+@media (max-width: 930px) {
+    .what h6{
+        margin-left: 200px;
+    }
+    .what h1{
+        margin-left: 120px;
+    }
+}
+
+@media (max-width: 440px) {
+    .what h6{
+        margin-left: 150px;
+    }
+    .what h1{
+        margin-left: 50px;
+    }
+}
+@media (max-width: 385px) {
+    .what h6{
+        margin-left: 100px;
+    }
+    .what h1{
+        margin-left: 15px;
+    }
+}
+
+
+@media (max-width: 340px) {
+    .what h6{
+        margin-left: 96px;
+    }
+    .what h1{
+        margin-left: 3px;
+    }
+}
+
+
+@media (max-width: 930px) {
+    .why h6{
+        margin-left: 233px;
+    }
+    .why h1{
+        margin-left: 200px;
+    }
+}
+@media (max-width: 650px) {
+    .why h6{
+        margin-left: 190px;
+    }
+    .why h1{
+        margin-left: 170px;
+    }
+}
+
+@media (max-width: 470px) {
+    .why h6{
+        margin-left: 160px;
+    }
+    .why h1{
+        margin-left: 140px;
+    }
+}
+
+@media (max-width: 440px) {
+    .why h6{
+        margin-left: 150px;
+    }
+    .why h1{
+        margin-left: 136px;
+    }
+}
+@media (max-width: 385px) {
+    .why h6{
+        margin-left: 100px;
+    }
+    .why h1{
+        margin-left: 63px;
+    }
+}
+@media (max-width: 290px) {
+    .why h6{
+        margin-left: 90px;
+    }
+    .why h1{
+        margin-left: 65px;
+    }
+}
 
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(20px); }
