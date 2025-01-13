@@ -5123,6 +5123,14 @@ textarea {
         margin-left: 63px;
     }
 }
+@media (max-width: 290px) {
+    .why h6{
+        margin-left: 90px;
+    }
+    .why h1{
+        margin-left: 65px;
+    }
+}
 
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(20px); }
