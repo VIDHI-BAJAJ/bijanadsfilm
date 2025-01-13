@@ -3449,9 +3449,7 @@
   .testimonials .item .info .author-img img {
       border-radius: 100%;
   }
-  .testimonials .item .info .cont {
-      margin-left: 80px;
-  }
+
   .testimonials .item .info .cont h6 {
       display: block;
       font-size: 16px;
@@ -4695,7 +4693,7 @@
   }
   .footer .list li a:hover {
     padding-left: 15px;
-    color: var(--clr-theme-color);
+    color: #fff;
   }
   .footer .list li a:before {
     position: absolute;

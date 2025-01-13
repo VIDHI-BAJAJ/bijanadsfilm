@@ -4659,7 +4659,7 @@ body.dark .footer .bottom {
     background-color: #101010;
     padding: 30px 0;
     border: none;
-    border-top: 2px solid rgba(220, 39, 81,0.2);
+    border-top: 2px solid rgba(255, 255, 255, 0.05);
 }
 body.dark .footer .bottom p {
     font-size: 14px;
