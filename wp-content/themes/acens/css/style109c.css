@@ -3449,7 +3449,9 @@
   .testimonials .item .info .author-img img {
       border-radius: 100%;
   }
-
+  .testimonials .item .info .cont {
+    margin-left: 20px;
+}
   .testimonials .item .info .cont h6 {
       display: block;
       font-size: 16px;
