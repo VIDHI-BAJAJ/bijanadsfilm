@@ -5140,12 +5140,10 @@ textarea {
       
       .section-padding h1 {
           font-size: 36px;
-          margin-left: 34px;
       }
       
       .section-padding[data-overlay-dark] h6, .section-padding h6 {
           font-size: 16px;
-          margin-left: 113px;
       }
       
       .section-padding h2 {
