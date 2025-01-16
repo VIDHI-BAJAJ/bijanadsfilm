@@ -688,6 +688,12 @@
       top: 30% !important;
       margin-top: 0;
   }
+
+  .owl-carousel .owl-item img {
+    display: block;
+    width: 65%;
+}
+
   @media screen and (max-width: 768px) {
       .owl-theme .owl-nav {
           display: none;
@@ -3479,13 +3485,10 @@
   }
   .clients .clients-logo {
       line-height: 0;
-      padding: 15px;
-      border: 2px solid #f0f0f3;
       position: relative;
       transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
       overflow: hidden;
       border-radius: 5px;
-      background: #f0f0f3;
   }
   .clients .clients-logo:hover {
     transform: scale(0.95);
