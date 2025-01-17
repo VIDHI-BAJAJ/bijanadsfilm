@@ -2060,7 +2060,7 @@
       font-family: "Montserrat", "Open Sans", sans-serif;
       font-size: 18px;
       font-weight: 400;
-      color: var(--clr-theme-color);
+      /* color: var(--clr-theme-color); */
       margin-bottom: 5px;
   }
   
@@ -4719,6 +4719,19 @@
   .footer .list li a:hover:before {
     opacity: 1;
   }
+  .footer .quick-links{
+    margin-left: 80px;
+  }
+  @media (max-width: 970px) {
+    .footer .quick-links{
+        margin-left: 60px;
+      }
+}
+@media (max-width: 750px) {
+    .footer .quick-links{
+        margin-left: -1px;
+      }
+}
   /* subscribe */
   .subscribe form {
       margin-top: 30px;
@@ -5047,6 +5060,18 @@ textarea {
     background: #ffffff;
     border-radius: 2px;
 }
+@media (max-width: 405px) {
+    .left-side h3 {
+        font-size: 28px;
+        margin-left: 11px;
+    }
+}
+@media (max-width: 380px) {
+    .left-side h3 {
+        font-size: 24px;
+        margin-left: 11px;
+    }
+}
 @media (max-width: 930px) {
     .what h6{
         margin-left: 200px;
@@ -5142,6 +5167,9 @@ textarea {
 
 .split-layout {
     animation: fadeIn 0.8s ease-out;
+}
+.agency{
+    color: #fff;
 }
 
   /* ======= toTop Button style ======= */
