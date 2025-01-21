@@ -1179,11 +1179,10 @@ body.dark .nav-scroll .navbar-right .wrap .text h5 a {
     
     body.dark .dropdown .nav-link i {
         color: rgba(255, 255, 255, 0.5);
-        display: none;
     }
     body.dark .nav-scroll .dropdown .nav-link i {
         color: #000;
-        display: none;
+
     }
     body.dark .nav-scroll .dropdown .nav-link.active i {
         color: var(--clr-theme-color);
