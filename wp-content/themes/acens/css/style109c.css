@@ -5069,12 +5069,23 @@ textarea {
 }
 @media (max-width: 930px) {
     .what h6{
-        margin-left: 200px;
+        margin-left: 185px;
     }
     .what h1{
         margin-left: 120px;
+        font-size: 35px;
     }
 }
+@media (max-width: 485px) {
+    .what h6{
+        margin-left: 165px;
+    }
+    .what h1{
+        margin-left: 83px;
+        font-size: 35px;
+    }
+}
+
 
 @media (max-width: 440px) {
     .what h6{
@@ -5086,7 +5097,7 @@ textarea {
 }
 @media (max-width: 385px) {
     .what h6{
-        margin-left: 100px;
+        margin-left: 93px;
     }
     .what h1{
         margin-left: 15px;
@@ -5098,18 +5109,48 @@ textarea {
     .what h6{
         margin-left: 96px;
     }
-    .what h1{
-        margin-left: 3px;
+    .what h1 {
+        margin-left: 36px;
+        font-size: 31px;
     }
 }
 
 
 @media (max-width: 930px) {
     .why h6{
-        margin-left: 233px;
+        margin-left: 284px;
+        margin-top: 25px;
     }
     .why h1{
-        margin-left: 200px;
+        margin-left: 253px;
+    }
+}
+@media (max-width: 770px) {
+    .why h6{
+        margin-left: 285px;
+        margin-top: 25px;
+    }
+    .why h1{
+        margin-left: 240px;
+    }
+}
+@media (max-width: 766px) {
+    .why h6{
+        margin-left: 206px;
+        margin-top: 25px;
+    }
+    .why h1{
+        margin-left: 193px;
+    }
+}
+
+@media (max-width: 760px) {
+    .why h6{
+        margin-left: 205px;
+        margin-top: 25px;
+    }
+    .why h1{
+        margin-left: 184px;
     }
 }
 @media (max-width: 650px) {
@@ -5146,12 +5187,36 @@ textarea {
         margin-left: 63px;
     }
 }
+@media (max-width: 378px) {
+    .why h6{
+        margin-left: 116px;
+    }
+    .why h1{
+        margin-left: 93px;
+    }
+}
+@media (max-width: 320px) {
+    .why h6{
+        margin-left: 88px;
+    }
+    .why h1{
+        margin-left: 70px;
+    }
+}
 @media (max-width: 290px) {
     .why h6{
         margin-left: 90px;
     }
     .why h1{
         margin-left: 65px;
+    }
+}
+@media (max-width: 265px) {
+    .why h6{
+        margin-left: 69px;
+    }
+    .why h1{
+        margin-left: 51px;
     }
 }
 .teams h1{
@@ -5172,7 +5237,7 @@ textarea {
     .main{
         display: flex;
         flex-direction: row;
-        margin-left: 10px;
+        margin-left: -1px;
     }
 }
 
@@ -5180,7 +5245,7 @@ textarea {
     .main{
         display: flex;
         flex-direction: column;
-        margin-left: 10px;
+
     }
 }
 
