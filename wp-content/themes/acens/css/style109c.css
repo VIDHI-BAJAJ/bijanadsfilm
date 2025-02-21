@@ -2410,7 +2410,7 @@
       color: var(--clr-theme-color);
   }
   .team .item .con h5 {
-      font-size: 18px;
+      font-size: 17px;
       color: #1b1b1b;
       line-height: 1.5em;
   }
@@ -4858,7 +4858,40 @@
         width: 107px;
     }
 }
+.contact-details .icon2 {
+    width: 100px;
+    height: 40px;
+    background-color: #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    margin-top: -52px;
+}
+.contact-details .icon2 img {
+    width: 20px;
+    height: 20px;
+    filter: invert(1);
+}
 
+.contact-details .icon3 {
+        width: 110px;
+        height: 40px;
+        background-color: #000;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 15px;
+        margin-top: -50px;
+    }
+
+.contact-details .icon3 img {
+    width: 20px;
+    height: 20px;
+    filter: invert(1);
+}
 .contact-details span {
     color: #333;
 }
@@ -5269,6 +5302,8 @@ textarea {
 .agency{
     color: #fff;
 }
+
+
 
   /* ======= toTop Button style ======= */
   .progress-wrap {
