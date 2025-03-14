@@ -1939,23 +1939,6 @@
     }
 }
 
-/* Ensure the container doesn't cut off the text */
-.parallax-header {
-    width: 100%;
-    overflow: visible;
-    padding: 0 15px;
-    box-sizing: border-box;
-}
-
-/* Make sure the h1 is also responsive */
-.parallax-header h1 {
-    width: 100%;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    line-height: 1.2;
-}
-
 
   .parallax-header[data-overlay-dark] p {
       font-family: "Montserrat", "Open Sans", sans-serif;
