@@ -1858,7 +1858,7 @@
       animation-delay: .4s;
   }
 
-  .parallax-header h1 span,
+  /* .parallax-header h1 span,
   .parallax-header[data-overlay-dark] h1 span {
       position: relative;
       font-size: 100px;
@@ -1884,7 +1884,77 @@
     100% {
         stroke-dashoffset: 0;
     }
-} 
+}  */
+
+.parallax-header h1 span,
+.parallax-header[data-overlay-dark] h1 span {
+    position: relative;
+    font-size: 100px;
+    animation-delay: 0.4s;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    opacity: 0.8;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    animation: drawText 4s ease forwards;
+}
+
+/* Responsive font sizes */
+@media screen and (max-width: 1200px) {
+    .parallax-header h1 span {
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .parallax-header h1 span {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .parallax-header h1 span {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .parallax-header h1 span {
+        font-size: 30px;
+    }
+}
+
+/* Since the stroke animation doesn't work well with HTML text, 
+   let's use a fade-in animation instead */
+@keyframes drawText {
+    0% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.8;
+    }
+}
+
+/* Ensure the container doesn't cut off the text */
+.parallax-header {
+    width: 100%;
+    overflow: visible;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+/* Make sure the h1 is also responsive */
+.parallax-header h1 {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+}
 
 
   .parallax-header[data-overlay-dark] p {
