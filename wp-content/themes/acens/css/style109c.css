@@ -1857,6 +1857,7 @@
       -webkit-animation-delay: .4s;
       animation-delay: .4s;
   }
+
   .parallax-header h1 span,
   .parallax-header[data-overlay-dark] h1 span {
       position: relative;
@@ -1871,9 +1872,10 @@
       stroke-width: 3;
       stroke-dasharray: 500;
       stroke-dashoffset: 500;
-      animation: drawText 10s ease forwards;
-      
+      animation: drawText 10s ease forwards;   
   }
+
+
 
   @keyframes drawText {
     0% {
@@ -1883,28 +1885,6 @@
         stroke-dashoffset: 0;
     }
 } 
-
-/* 
-  .parallax-header h1 span svg text {
-    font-size: 100px;
-    font-family: "Montserrat", "Open Sans", sans-serif;
-    fill: none;
-    stroke: white;
-    stroke-width: 3;
-    stroke-dasharray: 500;
-    stroke-dashoffset: 500;
-    animation: drawText 10s ease forwards;
-}
-
-
-@keyframes drawText {
-    0% {
-        stroke-dashoffset: 500;
-    }
-    100% {
-        stroke-dashoffset: 0;
-    }
-} */
 
 
   .parallax-header[data-overlay-dark] p {
