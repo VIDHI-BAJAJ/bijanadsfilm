@@ -1867,6 +1867,33 @@
       -webkit-text-stroke: 1px #fff;
       opacity: .8;
   }
+  .parallax-header h1 span {
+    display: inline-block;
+    transform: translateX(50px); /* Adjust value as needed */
+}
+
+  .parallax-header h1 span svg text {
+    font-size: 100px;
+    font-family: "Montserrat", "Open Sans", sans-serif;
+    fill: none;
+    stroke: white;
+    stroke-width: 3;
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    animation: drawText 10s ease forwards;
+}
+
+
+@keyframes drawText {
+    0% {
+        stroke-dashoffset: 500;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+
   .parallax-header[data-overlay-dark] p {
       font-family: "Montserrat", "Open Sans", sans-serif;
       font-size: 16px;
@@ -2057,7 +2084,7 @@
   .section-padding h6 {
       display: inline-block;
       font-family: "Montserrat", "Open Sans", sans-serif;
-      font-size: 18px;
+      font-size: 25px;
       font-weight: 400;
       /* color: var(--clr-theme-color); */
       margin-bottom: 5px;
@@ -5522,3 +5549,85 @@ textarea {
   .info h5{
     color: #000;
   }
+
+  /* Position the container properly */
+.full-width {
+    position: relative;
+}
+
+/* Navigation buttons styling */
+.owl-prev-custom,
+.owl-next-custom {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 10;
+}
+
+.owl-prev-custom {
+    left: 15px;
+}
+
+.owl-next-custom {
+    right: 15px;
+}
+
+.owl-prev-custom:hover,
+.owl-next-custom:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Make buttons responsive */
+@media (max-width: 768px) {
+    .owl-prev-custom,
+    .owl-next-custom {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .owl-prev-custom,
+    .owl-next-custom {
+        width: 35px;
+        height: 35px;
+        font-size: 14px;
+    }
+}
+
+
+
+.dots {
+    display: flex;
+    gap: 5px;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+.dotswork{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 5px;
+}
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.purple { background: blue; }
+.blue { background: lightskyblue; }
+.red { background: red; }
+.yellow { background: orange; }
+
