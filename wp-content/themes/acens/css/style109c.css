@@ -1866,12 +1866,25 @@
       color: transparent;
       -webkit-text-stroke: 1px #fff;
       opacity: .8;
+      fill: none;
+      stroke: white;
+      stroke-width: 3;
+      stroke-dasharray: 500;
+      stroke-dashoffset: 500;
+      animation: drawText 10s ease forwards;
+      
   }
-  .parallax-header h1 span {
-    display: inline-block;
-    transform: translateX(50px); /* Adjust value as needed */
-}
 
+  @keyframes drawText {
+    0% {
+        stroke-dashoffset: 500;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+} 
+
+/* 
   .parallax-header h1 span svg text {
     font-size: 100px;
     font-family: "Montserrat", "Open Sans", sans-serif;
@@ -1891,7 +1904,7 @@
     100% {
         stroke-dashoffset: 0;
     }
-}
+} */
 
 
   .parallax-header[data-overlay-dark] p {
@@ -1901,7 +1914,7 @@
       margin-bottom: 15px;
   }
   
-  
+
   /* ===== Kenburns SlideShow style ===== */
   .kenburns-section {
       z-index: 1;
@@ -5402,6 +5415,7 @@ textarea {
   
   /* ======= Media Query style ======= */
   
+ 
   @media (max-width: 767px) {
       .parallax-header h1,
       .parallax-header h1 span,
@@ -5468,6 +5482,7 @@ textarea {
           margin-bottom: 30px;
       }
   }
+
   @media (max-width: 991px) {
       .sidebar .sidebar-widget .widget-inner {
           margin-top: 0px;
