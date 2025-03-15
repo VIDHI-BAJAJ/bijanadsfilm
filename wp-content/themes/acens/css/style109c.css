@@ -5626,8 +5626,15 @@ textarea {
     left: 15px;
 }
 
+.lefttest{
+    left: -15px;
+}
+
 .owl-next-custom {
     right: 15px;
+}
+.righttest{
+    right: -15px;
 }
 
 .owl-prev-custom:hover,
@@ -5668,6 +5675,12 @@ textarea {
     justify-content: center;
     margin-top: 5px;
 }
+.dotswhy{
+    display: flex;
+    gap: 5px;
+    margin-left: 90px;
+    margin-top: 5px;
+}
 .dot {
     width: 12px;
     height: 12px;
@@ -5679,3 +5692,64 @@ textarea {
 .red { background: red; }
 .yellow { background: orange; }
 
+@media screen and (max-width:922px) {
+    .dotswhy{
+        display: flex;
+        gap: 5px;
+        margin-left: -200px;
+        justify-content: center;
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width: 765px) {
+    .dotswhy {
+        display: flex;
+        gap: 5px;
+        margin-left: -150px;
+        justify-content: center;
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width: 578px) {
+    .dotswhy {
+        display: flex;
+        gap: 5px;
+        margin-left: -170px;
+        justify-content: center;
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 516px) {
+    .dotswhy {
+        display: flex;
+        gap: 5px;
+        margin-left: -100px;
+        justify-content: center;
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width: 410px) {
+    .dotswhy {
+        display: flex;
+        gap: 5px;
+        justify-content: center;
+        margin-top: 5px;
+    }
+}
+
+.dotswhat{
+    display: flex;
+    gap: 5px;
+    margin-left: 150px;
+    margin-top: 5px;
+}
+@media screen and (max-width:765px) {
+    .dotswhat{
+        display: flex;
+        gap: 5px;
+        margin-left: 0px;
+        justify-content: center;
+        margin-top: 5px;
+    }
+}
