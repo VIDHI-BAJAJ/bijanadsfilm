@@ -5753,3 +5753,59 @@ textarea {
         margin-top: 5px;
     }
 }
+
+.dotshouse{
+    display: flex;
+    gap: 5px;
+    margin-left: 250px;
+    margin-top: 5px;
+}
+
+
+@media screen and (max-width:922px) {
+    .dotshouse{
+        display: flex;
+        gap: 5px;
+        margin-left: -200px;
+        justify-content: center;
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width: 765px) {
+    .dotshouse {
+        display: flex;
+        gap: 5px;
+        margin-left: -150px;
+        justify-content: center;
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width: 578px) {
+    .dotshouse {
+        display: flex;
+        gap: 5px;
+        margin-left: -170px;
+        justify-content: center;
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 516px) {
+    .dotshouse{
+        display: flex;
+        gap: 5px;
+        margin-left: -100px;
+        justify-content: center;
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width: 410px) {
+    .dotshouse {
+        display: flex;
+        gap: 5px;
+        justify-content: center;
+        margin-top: 5px;
+    }
+}
+
+
