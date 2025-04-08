@@ -1095,7 +1095,6 @@
       .navbar button:hover {
           background: transparent;
           outline: none;
-          color: black;
       }
 
       .navbar .container {
