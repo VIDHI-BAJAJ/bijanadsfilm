@@ -826,6 +826,7 @@
   .nav-scroll .navbar-nav .nav-link {
       color: #1b1b1b;
   }
+  
   .nav-scroll .navbar-nav .active {
       color: var(--clr-theme-color);
   }
@@ -1084,6 +1085,7 @@
           background: transparent;
           margin-top: 0px;
           border: none;
+          color: black;
       }
       .navbar button:hover {
           background: transparent;
@@ -1093,8 +1095,9 @@
       .navbar button:hover {
           background: transparent;
           outline: none;
-          color: transparent !important;
+          color: black;
       }
+
       .navbar .container {
           max-width: 100%;
           padding: 0;
@@ -2972,7 +2975,91 @@
       color: #1b1b1b;
   }
   
-  
+ 
+  .services  .cons {
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+    bottom: 45px;
+    z-index: 2;
+    background: #f0f0f3;
+    padding: 25px 20px 15px;
+    opacity: 1;
+    visibility: visible;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    overflow: hidden;
+    z-index: 1;
+    border-radius: 10px;
+}
+.services .cons:hover {
+    background: var(--clr-theme-color);
+}
+.services .cons:hover h5 {
+  transform: translateX(10px);
+  transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
+}
+.services  .cons .arrow {
+    position: relative;
+    display: block;
+    top: 0px;
+    visibility: hidden;
+    opacity: 0;
+    transform: rotate(0);
+}
+.services  .cons:hover .arrow {
+    visibility: visible;
+    transform: translateY(0%);
+    opacity: 1;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+.services  .cons .arrow a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+    color: var(--clr-theme-color);
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    border-radius: 100%;
+    background: #fff;
+}
+.services  .cons .arrow a:hover {
+    background: #fff;
+    color: var(--clr-theme-color);
+}
+.services  .cons h5 {
+    font-size: 17px;
+    color: #1b1b1b;
+    line-height: 1.5em;
+}
+.services  .cons h5 a {
+    color: #1b1b1b;
+}
+.services  .cons h5 span {
+    font-size: 16px;
+    color: #727272;
+    text-transform: none;
+    font-weight: 400;
+    font-family: "Montserrat", "Open Sans", sans-serif;
+    letter-spacing: 0;
+}
+.services  .cons:hover h5,
+.services  .cons:hover h5 a,
+.services  .cons:hover h5 span {
+    color: #fff;
+}
+
   /* ======= Services Sidebar style ======= */
   .sidebar .sidebar-widget {
       position: relative;
